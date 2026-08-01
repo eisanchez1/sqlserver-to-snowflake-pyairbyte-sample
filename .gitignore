@@ -1,0 +1,17 @@
+.env
+*.pem
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+
+# OS / system directories
+bin/
+lib64/
+lib/
+include/
+.cache/
+share/
+lib64

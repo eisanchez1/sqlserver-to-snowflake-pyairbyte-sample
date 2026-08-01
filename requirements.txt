@@ -1,0 +1,2 @@
+airbyte==0.53.2
+python-dotenv==1.2.2

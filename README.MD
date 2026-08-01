@@ -124,7 +124,7 @@ This sample replicates the following tables:
 
 Below is the database diagram:
 
-![Diagram](/venv/images/source-db-diagram.png "Database Diagram")
+![Diagram](/images/source-db-diagram.png "Database Diagram")
 
 Modify the `TABLES` list in `main.py` to replicate different tables.
 
@@ -149,18 +149,18 @@ In this sample, the source tables belong to the `dbo` schema in SQL Server. Duri
 
 Below is a sample runtime output in my own Terminal:
 
-![Sample Output](/venv/images/airbyte-pipeline-results.png)
+![Sample Output](/images/airbyte-pipeline-results.png)
 
 Below is the replication result in Snowflake:
 
-![Snowflake Replicated Tables](/venv/images/airbyte-snowflake-tables-list.png)
+![Snowflake Replicated Tables](/images/airbyte-snowflake-tables-list.png)
 
 Airbyte added a few columns in each table for tracking changes:
-![Replicated Products table with added columns](/venv/images/airbyte-snowflake-additional-table-columns.png)
+![Replicated Products table with added columns](/images/airbyte-snowflake-additional-table-columns.png)
 
 Finally, here's a sample preview of one of the tables:
 
-![Sample data preview](/venv/images/airbyte-snowflake-products-data-preview.png)
+![Sample data preview](/images/airbyte-snowflake-products-data-preview.png)
 
 ## Notes
 

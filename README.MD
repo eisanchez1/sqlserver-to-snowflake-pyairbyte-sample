@@ -182,6 +182,8 @@ destination.write(
 
 Using a `ReadResult` produced by `source.read()` as the input to `destination.write()` did not work for this SQL Server-to-Snowflake scenario during testing. Passing the `Source` object directly proved to be the successful approach.
 
+This SQL Server to Snowflake PyAirbyte sample is one of the options explored in the article [How to Move Data from SQL Server to Snowflake](https://skyvia.com/blog/sql-server-to-snowflake/).
+
 ## License
 
 This sample is provided for educational purposes.
